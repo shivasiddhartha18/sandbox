@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before & After Pseudo Selector</title>
+</head>
+<style>
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        background: #333333;
+        color: white;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+
+    header:before {
+        content: '';
+       background: url("/img/xps-TxXuh_hAFd8-unsplash.jpg") no-repeat center center/cover;
+       opacity: 0.5;
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 100%;
+       width: 100%;
+       z-index: -1;
+    }
+
+    header > h1{
+        font-size: 4rem;
+        margin: 1rem;
+    }
+    .isRequired:after{
+        /* pseduo "before" will add the * before the label */
+        content: '*';
+        color: red;
+        padding-left: 0.15rem;
+    }
+</style>
+<body>
+<!--     
+    <label for="name" class="isRequired">Name</label>
+    <input type="text" name="name" id=""> -->
+<header>
+    <h1>Hello World</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quidem voluptate, illo recusandae commodi nam aspernatur optio ea laudantium iste incidunt numquam minima quam inventore odio tempore, architecto maxime expedita.Tempora quidem nulla ad, fugiat facilis quas laborum magni corrupti ducimus placeat quasi voluptatem architecto harum commodi tenetur pariatur perferendis adipisci cumque quaerat ullam doloribus dolorum eius. Facere, quos dolorum.</p>
+</header>
+<section>
+    <h3>test 2</h3> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam quas ex repellendus saepe temporibus sed, aut porro voluptatem libero commodi adipisci cum. Libero vitae assumenda rem voluptates, commodi vel.</p>
+</section>
+</body>
+</html>

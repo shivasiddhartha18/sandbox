@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text shadow</title>
+    <style>
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 3rem;
+        }
+
+        h1.a{
+            /* h-shadow |v-shadow | color */
+            text-shadow: 0.2rem 0.2rem steelblue;
+        }
+
+        h1.b {
+            /* h-shadow |v-shadow | blur |color */
+            text-shadow: 0.4rem 0.3rem 0.7rem steelblue;
+        }
+
+        h1.c {
+            /* white text and showdow */
+            color: white;
+            text-shadow: 0.2rem 0.2rem steelblue;
+        }
+
+        h1.d{
+             /*negative values*/
+            text-shadow: -0.2rem -0.2rem steelblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="a">welcome</h1>
+    <h1 class="b">welcome</h1>
+    <h1 class="c">welcome</h1>
+    <h1 class="d">welcome</h1>
+</body>
+</html>

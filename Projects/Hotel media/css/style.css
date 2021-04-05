@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin: 2rem;
+}
+
+/* utilities */
+.bg-primary{
+    background: turquoise;
+}
+.text-primary{
+    color: turquoise;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    background: #333;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.py-1{
+    padding: 1rem;
+}
+
+.py-2{
+    padding: 2rem;
+}
+
+.py-3{
+    padding: 3rem;
+}
+
+.lead{
+    margin: 1rem 0;
+}
+
+/* end of utility */
+
+/* navbar */
+#navbar{
+    display: flex;
+    background: #333;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#navbar .logo{
+    margin: 0 0.5rem;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 1rem;
+    color: white;
+
+}
+
+/* header Showcase Section */
+#showcase{
+    background: url('/img/people-in-couch-1024248.jpg') no-repeat center center/cover;
+    height: 93.5vh;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    position: absolute;
+}
+
+/* Hotel History Section */
+#home-info{
+    display: flex;
+    flex: 1;
+    height: 400px;
+}
+
+#home-info .info-img{
+    background: url('/img/beige-concrete-building-3126553.jpg') no-repeat center center/cover;
+    width: 80%;
+    
+}
+
+#home-info .info-text{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end of Hotel History */
+
+/* Features Section */
+#feature {
+    display: flex;
+    /* background: #f4f4f4; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+
+#feature .box p{
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+/* About Page */
+
+
+/* footer */
+#footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+#footer .container .box{
+    /* display: flex; */
+    flex: 1;
+}
+
+.about-img{
+    background: url('/img/palm-trees-at-night-258154.jpg') no-repeat center center/cover;
+    height: 50%;
+}

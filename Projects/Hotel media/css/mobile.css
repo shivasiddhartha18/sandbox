@@ -1,0 +1,76 @@
+@media (max-width:786px){
+
+    .btn{
+        background: #333;
+        opacity: 0.8;
+        padding: 0.6rem;
+    }
+    
+    .btn:hover{
+        background: #f4f4f4;
+        color: #333;
+    }
+
+    #navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #navbar .logo{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    #navbar ul{
+        padding: 0 0.5rem;
+        font-size: 1.3rem;
+        justify-content: center;
+    }
+    
+    /* Showcase Contetc */
+    #showcase .showcase-content{
+        display: flex;
+        font-size: 1.3rem;
+    }
+
+    /* hotel history */
+    #home-info{
+        display: flex;
+        flex: 1;
+        height: 300px;
+    }
+    
+    #home-info img{
+        display: none;
+    }
+
+    #home-info .info-text{
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    #home-info p{
+        font-size: 1.3rem;
+    }
+
+    #feature{
+        font-size: 1.5rem;
+    }
+
+    #feature .fa-2x{
+        font-size: 1.5em;
+    }
+
+    #feature .box h2{
+        font-size: 1.3rem;
+    }
+
+    #feature .box p{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+
+    #footer{
+        font-size: 1rem;
+    }
+}

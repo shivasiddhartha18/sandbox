@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em Rem Units</title>
+    <style>
+        #box-1 h3{
+            font-size: 1.6em;
+        }
+
+        /* em units takes the value of its parent element multiplies it with given number ex: root is 16px, h3 is 16*1.6 and p is (16*1.6)*1.7 */
+        #box-1 p{
+            font-size: 1.7em;
+        }
+
+        /* first ul = ((16*1.6)*1.7)*1.5 */
+        #box-1 ul{
+            font-size: 1.5em;
+        }
+
+        /* rem units takes the value of its parent element multiplies it with given number ex: root is 16px, h3 is 16*1.6 and p is 16*1.7 */
+        #box-2 h3{
+            font-size: 1.6em;
+        }
+
+        #box-2 p{
+            font-size: 1.7rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-1">
+        <h3>Box one</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum quos consequatur nulla dicta ducimus natus temporibus facere commodi? Sit.</p>
+        <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </li></ul>
+    </div>
+    <div id="box-2">
+        <h3>Box two</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rerum quos consequatur nulla dicta ducimus natus temporibus facere commodi? Sit.</p>
+    </div>
+</body>
+</html>

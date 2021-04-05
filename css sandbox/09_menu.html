@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .navbar{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: grey;
+            border-radius: 5px;
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+        }
+        .navbar li a{
+            color: white;
+            display:block;
+            padding: 15px 20px;
+        }
+        .navbar li a:hover{
+            color: violet;
+        }
+        /* side menu */
+        .side-menu{
+            list-style: none;
+            border: 2px solid #333;
+            border-radius: 3px;
+            width: 75px;
+            padding:20px;
+        }
+        .side-menu li{
+            font-size: 18px;
+            line-height: 2.4em;
+            border-bottom: dotted 1px #777;
+        }
+
+        .side-menu li:last-child{
+            border: none;
+        }
+
+        .side-menu a{
+            color:teal;
+            text-decoration: none;
+        }
+        .side-menu a:hover{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <br><br>
+    <ul class="side-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>

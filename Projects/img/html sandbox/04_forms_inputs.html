@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="name"> Name</label> <br>
+            <input type="text" name="" id="name" name="name" placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="email">Email</label> <br>
+            <input type="text" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div>
+            <label for="message">Message</label> <br>
+            <textarea name="message" id="messahe" cols="30" rows="10" placeholder="Enter Message"></textarea>
+        </div>
+        <div>
+            <label for="sex">Sex</label><br>
+            <select name="sex" id="sex" aria-placeholder="select">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="birthdate">Birth Date</label> <br>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <hr>
+        <div>
+            <label for="membership"><strong>Membership</strong></label><br>
+            <input type="radio" name="membership" value="simple" id="membership">Simple
+            <input type="radio" name="membership" value="standard" id="membership" checked>Standard
+            <input type="radio" name="membership" value="premeium" id="membership">Premeium
+        </div>
+        <div>
+            <label for="hobbies"><strong>Hobbies</strong></label><br>
+            <input type="checkbox" name="hobbies" value="like" id="hobbies">i Like
+            <input type="checkbox" name="hobbies" value="love" id="hobbies">Love it
+            <input type="checkbox" name="hobbies" value="Loved" id="hobbies">Loved
+        </div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>

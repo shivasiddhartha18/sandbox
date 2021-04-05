@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box Shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .box {
+            padding: 1rem;
+            margin: 1rem;
+            background: coral;
+            color: white;
+
+            /* offset-x | offset-y | color */
+            box-shadow: 10px 10px teal;
+
+            /* offset-x | offset-y | blur-radius |color */
+            box-shadow: 5px 5px 20px orange;
+
+            /* negative values */
+            /* offset-x | offset-y |blur-raduis| color */
+            box-shadow: -10px -10px 15px teal;
+
+            /* offset-x | offset-y | color */
+            box-shadow: 10px 10p 15px rgba(0, 0, 0, 0.9);
+
+            /* inset | offset-x | offset-y |color */
+            box-shadow: inset -3px -3px teal;
+            
+            /* multiple | offset-x | offset-y |blur radius |color */
+            box-shadow:  3px 3px 10px teal, -3px -3px 10px olive;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="box">
+          <h3>Heading</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, et.</p>
+      </div>  
+      <div class="box">
+          <h3>Heading</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, et.</p>
+      </div>  
+      <div class="box">
+          <h3>Heading</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, et.</p>
+      </div>  
+    </div>
+</body>
+</html>

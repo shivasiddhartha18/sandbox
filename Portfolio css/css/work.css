@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    line-height: 2rem;
+    margin: auto;
+    padding: 0 0rem;
+    overflow: hidden;
+    border: 2px black solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.30rem 0;
+    color: black;
+}
+
+.py-2 {
+    padding: 2.25rem 0;
+}
+
+.py-10 {
+    padding-top: 2rem;
+}
+
+.px-1 {
+    padding-left: 2rem;
+}
+
+.p-1 {
+    padding: 3.5rem;
+    margin-top: 3rem;
+}
+
+.p-2 {
+    padding: 2.25rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.l-heading {
+    font-size: 1.60rem;
+    margin-bottom: 1.0rem;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.m-heading {
+    font-size: 3.75rem;
+    margin-bottom: 1rem;
+}
+
+.l-center {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#showcase {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+#showcase {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+#showcase #navbar {
+    display: flex;
+    list-style: none;
+    background: radial-gradient(circle, rgba(174, 216, 238, 1) 35%, rgba(148, 233, 162, 1) 75%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+#showcase #navbar li a {
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem;
+    margin: 1rem
+}
+
+.name1 {
+    margin-left: 1rem;
+    font-size: 4rem;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #f3ec78;
+    background: radial-gradient(circle, rgba(174, 216, 238, 1) 35%, rgba(148, 233, 162, 1) 75%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.name2 {
+    margin-left: 3rem;
+    font-size: 4rem;
+    line-height: 1.5rem;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #f3ec78;
+    /* background: linear-gradient(0deg, rgba(34,193,195,1) 21%, rgba(253,187,45,1) 82%); */
+    background: radial-gradient(circle, rgba(174, 216, 238, 1) 35%, rgba(148, 233, 162, 1) 75%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+
+/* Work */
+
+#workStream {
+    margin: 0 25rem;
+}
+
+#empty {
+    border: 2px solid rgba(174, 216, 238, 1);
+    border-bottom: 2px solid rgba(148, 233, 162, 1);
+    margin: 0;
+    padding: 1rem;
+    min-width: 50%;
+}
+
+#sprint {
+    display: flex;
+    margin: 0.15rem;
+    border: 2px solid orange;
+    color: #ffdd05;
+}
+
+#sprint .content {
+    border: 2px solid rgba(174, 216, 238, 1);
+    border-bottom: 2px solid rgba(148, 233, 162, 1);
+    margin: 0;
+    max-width: 50%;
+    padding: 1rem;
+}
+
+#sprint .content img {
+    max-width: 50%;
+    max-height: 90%;
+    margin-left: 9rem;
+}
+
+#micron {
+    display: flex;
+    margin: 0.15rem;
+    border: 2px solid blue;
+    color: #0077C8;
+}
+
+#micron .content {
+    border: 2px solid rgba(174, 216, 238, 1);
+    border-bottom: 2px solid rgba(148, 233, 162, 1);
+    margin: 0;
+    padding: 1rem;
+    max-width: 50%;
+}
+
+#micron .content img {
+    max-width: 70%;
+    margin-left: 4rem;
+}
+
+#cvs {
+    display: flex;
+    margin: 0.15rem;
+    border: 2px solid green;
+    color: #DA1A00;
+}
+
+#cvs .content {
+    border: 2px solid rgba(174, 216, 238, 1);
+    border-bottom: 2px solid rgba(148, 233, 162, 1);
+    margin: 0;
+    padding: 1rem;
+    max-width: 50%;
+}
+
+#cvs .content img {
+    max-width: 60%;
+    margin-left: 6rem;
+}
+
+#workStream #micron {
+    border-right: 2px solid rgba(174, 216, 238, 1);
+    border-bottom: 2px solid rgba(148, 233, 162, 1);
+    height: 5rem
+}
+
+#workStream #cvs {
+    border-right: 2px solid rgba(174, 216, 238, 1);
+    border-bottom: 2px solid rgba(148, 233, 162, 1);
+    height: 5rem
+}
+
+
+/* So Social */
+
+.social {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 4rem;
+    width: 50px;
+    text-align: center;
+    /* text-decoration: none; */
+    margin: 1rem 3rem;
+}
+
+.fa-facebook {
+    background: radial-gradient(circle, rgba(174, 216, 238, 1) 75%, rgba(148, 233, 162, 1) 25%);
+    color: white;
+    /* font-size: 4rem; */
+    border-radius: 5px
+}
+
+.fa-instagram {
+    background: radial-gradient(circle, rgba(174, 216, 238, 1) 75%, rgba(148, 233, 162, 1) 25%);
+    color: white;
+    border-radius: 5px
+}
+
+.fa-linkedin {
+    background: radial-gradient(circle, rgba(174, 216, 238, 1) 75%, rgba(148, 233, 162, 1) 25%);
+    color: white;
+    border-radius: 5px
+}
+
+.fa-snapchat-ghost {
+    background: radial-gradient(circle, rgba(174, 216, 238, 1) 75%, rgba(148, 233, 162, 1) 25%);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 5px
+}
+
+hr {
+    border: none;
+    margin: 5rem 0;
+    height: 1.5px;
+    background: radial-gradient(circle, rgba(174, 216, 238, 1) 75%, rgba(148, 233, 162, 1) 25%);
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+footer .container p {
+    text-align: center;
+    font-size: 1.5rem;
+}

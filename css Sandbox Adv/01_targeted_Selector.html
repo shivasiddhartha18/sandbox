@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>targetted Selector</title>
+    <style>
+        /* targetting only the direct child */
+        div > p{
+            background: #f4ff
+        }
+
+        /* targetting a sibiling  */
+        div + p{
+            background: yellow;
+        }
+
+        /* 
+        targetting based on attribute 
+        a[target='_blank'] to target only blank
+        */
+        a[target]{
+            background: red;
+            color: white;
+        }
+
+        /* target by attribute */
+        input[type='text'],
+        input[type='email']{
+            width: 100%;
+            margin-bottom: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li><p>3</p></li>
+            <p>Lorem ipsum dolor sit.</p>
+        </ul>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+<br>
+<br>
+<br>
+    <a href="#">page 1</a> <a href="#" target="_self">page 2</a> <a href="http://google.com" target="_blank">Google</a>
+
+<br>
+<br>
+<form action="">
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="email">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,295 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    max-width: 1024px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color:#8abdf7;
+}
+
+.lead{
+    font-size: 18px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 12px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background: darkslategrey;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(102, 192, 235);
+}
+
+.btn-light{
+    background:lightgoldenrodyellow;
+    color: #777;
+}
+
+.bg-dark{
+    background: #333;
+    color: white;
+}
+.bg-lite{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background: #a4c3e7;
+    color: #333;
+}
+/* main Style */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+
+.box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    color: #444;
+}
+
+.clr{
+    clear: both;
+}
+
+.l-texting{
+    font-size: 40px;
+}
+/* navbar */
+#navbar{
+    background: #333;
+    color: white;
+    overflow: auto;
+}
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display:block;
+    padding: 20px;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current{
+background: #444;
+color:#f7c08a;
+}
+
+#showcase{
+    background: url("/img/brown-wooden-center-table-584399.jpg") no-repeat center/cover;
+    height: 650px;
+}
+
+#showcase .showcase-content{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+#showcase .showcase-content h1{
+    line-height: 1.2em;
+    font-size: 55px !important;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.5em;
+    color:yellow;
+}
+
+/* home info */
+#home-info{
+    height: 400px;
+}
+.info-img{
+    background: url("/img/vacant-gray-leather-tub-chair-in-room-2343468.jpg") no-repeat center center/cover;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#home-info .info-text{
+    text-align: center;
+    float:right;
+    width: 50%;
+    height: 100%;
+    overflow:hidden;
+    padding:50px 30px ;
+}
+
+#home-info .info-text p{
+    padding-bottom: 30px;
+}
+
+/* Features Sections */
+
+#building{
+    background: #f4f4f4;
+}
+
+#building .fa-building{
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+
+#meals .fa-cutlery{
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+#fitness .fa-heartbeat{
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+/* About Page */
+#about .container{
+    margin:auto;
+}
+
+#about .container .box{
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin-top: 20px;
+}
+
+#about .container .box p{
+    padding-right: 50px;
+}
+
+#about .container #sid{
+    background: url("/img/architecture-building-low-angle-shot-perspective-569659.jpg") no-repeat center center/cover;
+    width: 50%;
+    height: 275px;
+    border-radius: 50%;
+}
+
+#guest-response{
+    background: url("/img/brown-concrete-building-2009976.jpg") no-repeat center center/cover;
+    height: 600px;
+    padding-top: 40px;
+}
+
+#guest-response .container h1{
+    color: rgb(224, 248, 117);
+    padding-top: 120px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#guest-response .container .test{
+    background:#f7c08a;
+    opacity: 0.9;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#guest-response .container .test img{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: left;
+}
+
+/* Contact Page */
+#contact-form .container{
+    margin: auto;
+    max-width: 1024px;
+    line-height: 2em;
+}
+
+#contact-form .container h1{
+    margin-top: 20px;
+}
+
+#contact-form .container label{
+    display: block;
+    color: #333;
+    font-size: 18px;
+}
+
+#contact-form .container input, textarea{
+    margin-bottom: 30px;
+    width:100%;
+    padding: 10px;
+    border: 1px solid #f4f4f4;
+    border-radius: 1px;
+}
+
+#contact-form .container button{
+    margin: 15px 0;
+    background:#444 ;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#contact-form .container button:hover{
+    background: #f4f4f4;
+    color: #777;
+}
+#contact-info{
+    background: #333;
+    padding: 50px;
+}
+
+#contact-info .container .box{
+    margin-top: 40px;
+    color: #fff;
+}
+
+#footer{
+    background: #333;
+    color: white;
+    overflow: auto; 
+    text-align: center;
+    padding: 15px;
+}

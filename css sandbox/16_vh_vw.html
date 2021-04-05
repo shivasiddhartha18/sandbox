@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewport height and viewport width units</title>
+    <style>
+        *{
+        box-sizing: border-box;
+        margin:0;
+        padding: 0
+        };
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background: #333 url("https://source.unsplash.com/1600x900/?nature,water") center center/cover no-repeat;
+            color: white;
+            height: 100vh;
+            text-align: center;
+        }
+
+        header h1{
+            font-size: 2rem;
+            padding-top: 20rem;
+        }
+         
+        header p{
+            font-size: 0.75rem;
+            margin: 1rem 0;
+        }
+        header .btn{
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            background:#f4f4f4;
+            color:#333
+        }
+        section h2{
+            font-size: 1.75rem;
+            margin: 1rem;
+        }
+
+        section p{
+            font-size: 1rem;
+            margin: 1rem;
+        }
+
+        @media (max-height: 495px){
+            header h1{
+                padding-top:5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to out website</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos nesciunt deserunt tempora ipsum totam provident.</p>
+        <a class="btn "href="#">find more</a>
+    </header>
+    <section>
+        <h2>About US</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga beatae nisi ex neque quidem iusto, eligendi incidunt repellat corrupti maxime laudantium, sapiente dolores voluptates deserunt, doloribus natus cupiditate a. Porro suscipit quam provident temporibus quia nisi veritatis. Molestiae, veritatis officiis neque recusandae dolorum nostrum! Non eos vel et amet quam.</p>
+    </section>
+</body>
+</html>

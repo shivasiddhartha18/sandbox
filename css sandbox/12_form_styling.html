@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Style</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            background: #344a72;
+        }
+
+        .container {
+            width: 250px;
+            margin: 30px auto;
+            border: 2px #777 solid;
+            background: white;
+        }
+
+        .form-wrap h1, p {
+           text-align: center;
+           line-height: 10px;
+        }
+
+
+        .form-wrap a {
+            text-decoration: none;
+            background: grey;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 3px;
+            padding: 5px 87px;
+            
+        }
+
+        form {
+            margin-left: 10px;
+        }
+
+        input {
+            border: 1px #333 solid;
+            border-radius: 2px;
+            width: 220px;
+            height: 25px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="form-wrap">
+            <h1>Sign Up</h1>
+            <p>It's Free up here</p>
+            <form action="">
+                <div id="firstname" class="form-group">
+                    <label for="firstname">First Name</label><br>
+                    <input type="text">
+                </div>
+                <div id="last" class="form-group">
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text">
+                </div>
+                <div id="email" class="form-group">
+                    <label for="email">Email</label><br>
+                    <input type="text">
+                </div>
+                <div id="password" class="form-group">
+                    <label for="password">Passoword</label><br>
+                    <input type="text">
+                </div>
+                <div id="confirmPass" class="form-group">
+                    <label for="confirmPass">Confirm Passoword</label><br>
+                    <input type="text">
+                </div>
+                <a href="#">Sign Up</a>
+            </form>
+        </div>
+        <br>
+        <footer>
+            <p>By clicking you're in</p>
+            <a href="#">Terms</a><span> and</span>
+            <a href="#">Privacy Policy</a>
+        </footer>
+        <br>
+        <br>
+    </div>
+</body>
+
+</html>
